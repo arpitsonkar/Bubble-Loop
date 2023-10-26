@@ -5,7 +5,7 @@ var score = 0; // Set the initial score to 0
 function makeBubbble(){
     var clutter = "";
 
-    for(var i = 1; i <= 64; i++){
+    for(var i = 1; i <= 65; i++){
         var rn = Math.floor(Math.random() * 10);
         clutter += `<div class="bubble">${rn}</div>`;
     }
